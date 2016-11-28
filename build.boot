@@ -23,7 +23,8 @@
              :checksum
              "4FFBDF59A08A54FF624BCD17D0FF27D4")
 
-    (sift :move {#"^Tone.min.js" "cljsjs/tonejs/common/Tone.inc.js"})
+    (sift :move {#"^Tone.min.js" "cljsjs/tonejs/development/Tone.inc.js"})
+    (sift :move {#"^Tone.ext.js" "cljsjs/tonejs/common/Tone.ext.js"})
 
   	(sift :include #{#"^cljsjs"})
   	(deps-cljs :name "tonejs")
